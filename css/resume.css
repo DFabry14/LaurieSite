@@ -175,6 +175,12 @@ section.resume-section .resume-item .resume-date {
   }
 }
 
+@media (max-width: 767px) {
+  .banner {
+    display: none;
+  }
+}
+
 .bg-primary {
   background-color: blue !important;
 }
@@ -190,3 +196,4 @@ a {
 a:hover, a:focus, a:active {
   color: #824027;
 }
+
